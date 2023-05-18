@@ -14,9 +14,9 @@ namespace QLcuahangbanhoaqua
         private int SL { get; set; }
         private double Gia { get; set; }
 
-        public void XemSp()
+        public string XemSp()
         {
-
+            return "12";
         }
         
     }
