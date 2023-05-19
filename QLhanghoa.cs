@@ -16,7 +16,7 @@ namespace QLcuahangbanhoaqua
 
         public string XemSp()
         {
-            return "12";
+            
         }
         
     }

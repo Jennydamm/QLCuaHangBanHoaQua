@@ -1,7 +1,7 @@
 ﻿
 namespace QLcuahangbanhoaqua
 {
-    partial class Form1
+    partial class fTrangchu
     {
         /// <summary>
         /// Required designer variable.
@@ -42,7 +42,7 @@ namespace QLcuahangbanhoaqua
             this.linkLabel1.TabIndex = 1;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Danh mục hàng hóa";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // linkLabel2
             // 
@@ -53,9 +53,9 @@ namespace QLcuahangbanhoaqua
             this.linkLabel2.TabIndex = 2;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Đăng nhập";
-            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // Form1
+            // fTrangchu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -63,8 +63,9 @@ namespace QLcuahangbanhoaqua
             this.ClientSize = new System.Drawing.Size(1002, 469);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
-            this.Name = "Form1";
+            this.Name = "fTrangchu";
             this.Text = "Trangchu";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

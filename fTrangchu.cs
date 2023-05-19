@@ -10,23 +10,30 @@ using System.Windows.Forms;
 
 namespace QLcuahangbanhoaqua
 {
-    public partial class Form1 : Form
+    public partial class fTrangchu : Form
     {
-        public Form1()
+        public fTrangchu()
         {
             InitializeComponent();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form2 f = new Form2();
+            /*fDanhMuc f = new fDanhMuc();
             f.ShowDialog();
+            this.Hide();*/
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Dangnhap dn = new Dangnhap();
-            dn.ShowDialog();
+            /*fLogin login = new fLogin();
+            login.ShowDialog();
+            this.Hide();*/
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

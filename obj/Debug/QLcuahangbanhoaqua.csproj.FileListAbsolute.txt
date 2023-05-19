@@ -10,3 +10,6 @@ D:\Documents\Code in VS Code\C#\BT\QLcuahangbanhoaqua\obj\Debug\QLcuahangbanhoaq
 D:\Documents\Code in VS Code\C#\BT\QLcuahangbanhoaqua\obj\Debug\QLcuahangbanhoaqua.exe
 D:\Documents\Code in VS Code\C#\BT\QLcuahangbanhoaqua\obj\Debug\QLcuahangbanhoaqua.pdb
 D:\Documents\Code in VS Code\C#\BT\QLcuahangbanhoaqua\obj\Debug\QLcuahangbanhoaqua.Dangnhap.resources
+D:\Documents\Code in VS Code\C#\BT\QLcuahangbanhoaqua\obj\Debug\QLcuahangbanhoaqua.fLogin.resources
+D:\Documents\Code in VS Code\C#\BT\QLcuahangbanhoaqua\obj\Debug\QLcuahangbanhoaqua.fDanhMuc.resources
+D:\Documents\Code in VS Code\C#\BT\QLcuahangbanhoaqua\obj\Debug\QLcuahangbanhoaqua.fTrangchu.resources
